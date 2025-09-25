@@ -11,7 +11,7 @@
 
 ### Estado del código
 [![CI](https://github.com/aina-polomacia/iwvg-devops-polo-aina2/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/aina-polomacia/iwvg-devops-polo-aina2/actions/workflows/continuous-integration.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg-devops&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=es.upm.miw%3Aiwvg-devops)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aina-polomacia_iwvg-devops-polo-aina2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=aina-polomacia_iwvg-devops-polo-aina2)
 [![Render broken](https://iwvg-devops-latest.onrender.com/version-badge)](https://iwvg-devops-latest.onrender.com/swagger-ui.html)
 
 
