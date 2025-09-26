@@ -17,4 +17,11 @@ class SearchesTest {
         assertThat(new Searches().findUserIdByAllProperFraction().toList())
                 .containsExactly();
     }
+
+    @Test
+    void testFindFirstProperFractionByUserId() {
+        Fraction result = new Searches().findFirstProperFractionByUserId("3");
+        assertThat(result.getNumerator()).isEqualTo(1);
+        assertThat(result.getDenominator()).isEqualTo(5);
+    }
 }
