@@ -11,4 +11,10 @@ class SearchesTest {
         assertThat(result.getNumerator()).isEqualTo(12);
         assertThat(result.getDenominator()).isEqualTo(-240);
     }
+
+    @Test
+    void testFindUserIdByAllProperFraction() {
+        assertThat(new Searches().findUserIdByAllProperFraction().toList())
+                .containsExactly();
+    }
 }
