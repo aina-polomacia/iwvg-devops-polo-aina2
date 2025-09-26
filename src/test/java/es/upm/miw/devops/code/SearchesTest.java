@@ -24,4 +24,10 @@ class SearchesTest {
         assertThat(result.getNumerator()).isEqualTo(1);
         assertThat(result.getDenominator()).isEqualTo(5);
     }
+
+    @Test
+    void testFindDecimalFractionByNegativeSignFraction() {
+        assertThat(new Searches().findDecimalFractionByNegativeSignFraction().toList())
+                .containsExactly(-0.2, -0.5);
+    }
 }
