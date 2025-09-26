@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class Searches {
+    
     public Fraction findFractionMultiplicationByUserFamilyName(String familyName) {
         return new UsersDatabase().findAll()
                 .filter(user -> familyName.equals(user.getFamilyName()))
